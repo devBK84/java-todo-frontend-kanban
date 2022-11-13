@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-// Für Unit Tests immer Given, When und Then Schreiben.
+// Für "Unit" Tests immer Given, When und Then Schreiben.
 class KanbanServiceTest {
 // Fake Repsoitory
     private TodoRepository mocktodoRepository = mock(TodoRepository.class);
