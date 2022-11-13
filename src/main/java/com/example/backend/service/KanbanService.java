@@ -17,6 +17,8 @@ public class KanbanService {
 
     public List<Todo> getAllToDo() {
         return todoRepository.getTodoList();
+
+
     }
 
     public Todo addNewTodo (Todo toDo){
